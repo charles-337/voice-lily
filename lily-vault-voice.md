@@ -450,6 +450,12 @@ learning_log:
     null_tick: false
     learning: "Tick 059 surfaced 1 recurring vocabulary items (top: \"the register\" (2p)); 1 vault_anchor candidate(s) proposed (from keyword grep)."
     report: "[[2026-07-23-lily-tick-059]]"
+  - date: 2026-07-25
+    source: tick 060
+    layer: deterministic
+    null_tick: false
+    learning: "Tick 060 surfaced 1 recurring vocabulary items (top: \"the register\" (2p)); 1 vault_anchor candidate(s) proposed (from keyword grep)."
+    report: "[[2026-07-25-lily-tick-060]]"
 interaction_log:
   - date: 2026-05-25
     source_note: "[[🎭 Philosopher-Narrator Ensemble — Cast Index]]"
@@ -1093,6 +1099,16 @@ tick_log:
     refinement_proposed: false
     null_tick: false
     report: "[[2026-07-23-lily-tick-059]]"
+  - tick: 060
+    date: 2026-07-25
+    timestamp: 2026-07-25T06:01:04-0500
+    type: deterministic
+    vocab_added: 1
+    anchors_added: 0
+    vault_candidates_proposed: 1
+    refinement_proposed: false
+    null_tick: false
+    report: "[[2026-07-25-lily-tick-060]]"
 peer_awareness:
   - tick: 002
     date: 2026-05-26
@@ -1892,6 +1908,20 @@ peer_awareness:
       peer_vocab_count: 9
       peer_anchor_count: 3
       peer_tick_count: 57
+  - tick: 060
+    date: 2026-07-25
+    vs_will:
+      overlap_pct: 0
+      shared_vocab_count: 0
+      peer_vocab_count: 6
+      peer_anchor_count: 2
+      peer_tick_count: 59
+    vs_roger:
+      overlap_pct: 0
+      shared_vocab_count: 0
+      peer_vocab_count: 9
+      peer_anchor_count: 3
+      peer_tick_count: 59
 vault_awareness:
   - tick: 002
     date: 2026-05-26
@@ -2906,6 +2936,30 @@ vault_awareness:
         phrases: ['the register']
   - tick: 059
     date: 2026-07-23
+    top_matches:
+      - path: "\"02 - Core Hubs/\360\237\216\231\357\270\217 Voice Symposium \342\200\224 Trio Banter Protocol.md\""
+        match_count: 2
+        phrases: ['"the music"', 'the register']
+      - path: "\"02 - Core Hubs/Goldberg Variations \342\200\224 BWV 988 (SMSO Memorial Volume).pdf.md\""
+        match_count: 1
+        phrases: ['the register']
+      - path: "\"02 - Core Hubs/\360\237\216\231\357\270\217 The Symposium \342\200\224 Transcript & Craft Ledger (How the Voices Get Sharper).md\""
+        match_count: 1
+        phrases: ['the register']
+      - path: "\"02 - Core Hubs/\360\237\217\267\357\270\217 Price vs Cost \342\200\224 Belief With a Barcode.md\""
+        match_count: 1
+        phrases: ['the register']
+      - path: "\"02 - Core Hubs/\360\237\247\255 Provocation Engine \342\200\224 20 Worldview Tests for Ongoing Reflection.md\""
+        match_count: 1
+        phrases: ['the register']
+      - path: "\"04 - Narrative & Story Craft/Absurd Dialogue Fragments \342\200\224 Secret Tongues, Afterlife Interviews, Creative Infection.md\""
+        match_count: 1
+        phrases: ['the register']
+      - path: "04 - Narrative & Story Craft/Acoustics After Snow.md"
+        match_count: 1
+        phrases: ['the register']
+  - tick: 060
+    date: 2026-07-25
     top_matches:
       - path: "\"02 - Core Hubs/\360\237\216\231\357\270\217 Voice Symposium \342\200\224 Trio Banter Protocol.md\""
         match_count: 2
